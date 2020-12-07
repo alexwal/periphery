@@ -19,11 +19,7 @@ dependencies.append(
 )
 #else
 dependencies.append(
-    .package(
-        name: "SwiftSyntax",
-        url: "https://github.com/apple/swift-syntax",
-        .exact("0.50200.0")
-    )
+    .package(url: "https://github.com/apple/swift-syntax", .revision("swift-5.3-RELEASE"))
 )
 #endif
 
